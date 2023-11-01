@@ -1,0 +1,6 @@
+.env
+.cache
+venv/
+.idea/
+data/*
+output/*
