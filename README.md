@@ -1,10 +1,10 @@
-# TuneTracer
+# ChordCrawler
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-**TuneTracer** provides a set of tools to scrape chord progressions from the Ultimate Guitar website, transpose them to the key of C Major, and convert them to Roman numeral notation. This scraper uses the Spotify API to pull popular tracks and their key information, Selenium for web automation, and BeautifulSoup for HTML parsing.
+**ChordCrawler** provides a set of tools to scrape chord progressions from the Ultimate Guitar website, transpose them to the key of C Major, and convert them to Roman numeral notation. This scraper uses the Spotify API to pull popular tracks and their key information, Selenium for web automation, and BeautifulSoup for HTML parsing.
 
 ## Features
 
@@ -40,9 +40,9 @@
    - Copy the Client ID and Client Secret.
    - Rename .env.example to .env and replace the placeholders with your API credentials.
 
-4. **Run TuneTracer**
+4. **Run ChordCrawler**
     ```
-    python tuneTracer.py
+    python main.py
     ```
    
 ## Usage
